@@ -102,6 +102,10 @@ figure {
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
+  background: #fff;
+  /*webkit-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.15);*/
+  -moz-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.15);
 }
 @media screen and (max-width: 768px) {
   .gtco-nav {
@@ -116,7 +120,7 @@ figure {
   font-weight: bold;
 }
 .gtco-nav #gtco-logo em {
-  color: #fff;
+  color: #000;
   font-weight: 100;
   font-style: normal;
   -webkit-transition: 0.2s;
@@ -125,7 +129,7 @@ figure {
 }
 .gtco-nav #gtco-logo a {
   padding: 0px 10px;
-  color: #fff;
+  color: #000;
   font-weight: 700;
   -webkit-transition: 0.4s;
   -o-transition: 0.4s;
@@ -151,7 +155,7 @@ figure {
   font-size: 12px;
   padding: 30px 10px;
   text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(0, 0, 0, 0.5);
   font-weight: 400 !important;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
@@ -230,7 +234,7 @@ figure {
 }
 .gtco-nav ul li.btn-cta a span {
   border: none !important;
-  background: rgba(255, 255, 255, 0.2);
+  background: #7ed321;
   padding: 4px 20px;
   display: -moz-inline-stack;
   display: inline-block;
